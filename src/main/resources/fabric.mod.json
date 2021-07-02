@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "swordcore",
+  "version": "${version}",
+
+  "name": "劍之舞\nDance of Sword",
+  "description": "真实的攻击判定，以及男人的浪漫！\nVeritable determination of sword attack,And men's romantic!",
+  "authors": [
+    "初心社：銀核"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/swordcore/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.minecraft.amare.swordcore.SwordCoreMod"
+    ]
+  },
+
+  "mixins":[
+
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
